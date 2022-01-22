@@ -164,7 +164,7 @@ class Post
         return $this->author;
     }
 
-    public function setAuthor(User $author): void
+    public function setAuthor(?User $author): void
     {
         $this->author = $author;
     }
